@@ -10,23 +10,22 @@ h1 {
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-    font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 25px;
 }
 
 h3 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-weight: bold;
 }
 
-
-h4{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-weight: bold;
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-weight: bold;
 }
 
 p {
@@ -35,7 +34,7 @@ p {
   line-height: 1.7;
 }
 
-ul{
+ul {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 1.7;
@@ -76,7 +75,7 @@ ul{
 
 .card:active {
   transition: all 100ms ease-out;
-  transform: scale(1.0) perspective(100px) ;
+  transform: scale(1) perspective(100px);
 }
 
 /* Footer social media buttons */
@@ -111,61 +110,54 @@ ul{
   color: white;
 }
 
-
-#weathertext{
-   margin-bottom: 100px;
-   line-height: 1.8;
+#weathertext {
+  margin-bottom: 100px;
+  line-height: 1.8;
 }
 
-
-#endpage{
+#endpage {
   margin-bottom: 100px;
 }
 
-
-
 .btn,
-input[type="submit"]{
-	cursor: pointer;
-    border-radius: 0px;
-    text-decoration: none;
-    padding: 12px 18px;
-    font-size: 12px;
-    line-height: 19px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif; font-weight:400;
-    letter-spacing: 3px;
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-mid {
-    border-radius: 0px;
-    text-decoration: none;
-    padding: 14px 21px;
-    font-size: 13px;
-    line-height: 25px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif; font-weight:400;
-    letter-spacing: 3px;
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 14px 21px;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-dark,
-input[type="submit"]{
-    border:solid 2px #1f1f1f;
-    background: transparent;
-    color: #1f1f1f;
+input[type="submit"] {
+  border: solid 2px #1f1f1f;
+  background: transparent;
+  color: #1f1f1f;
 }
-
-
-
-
-
