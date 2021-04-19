@@ -66,6 +66,11 @@ ul {
   transition: all 250ms ease-out;
 }
 
+/*.card-title{*/
+/*  text-align: center;*/
+/*}*/
+
+
 /* Enables scale and backwards tilt features on hover. Adds box shadow*/
 .card:hover {
   z-index: 1;

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Arjun Tyagi">
+    <meta name="description" content="A portfolio website created by Arjun Tyagi">
+    <title>Portfolio | Arjun Tyagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,100&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<div class="container-xl">
+
+    <!-- Nav Bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <header>
+            <a class="navbar-brand" href="index.html#top"><img src="images/portfolio_icon.svg" width="50"
+                                                               height="50" class="d-inline-block align-center"
+                                                               alt="portfolio logo" loading="lazy"/>
+                Arjun Tyagi</a>
+
+        </header>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#about#top">About Me </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title1">Coding Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title2">UX Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container-xl">
+            <div class="row pt-2">
+                <div class="col">
+                    <h1 id="about-title" class="title pt-2">
+                        FabFlix: A Movie Rental Ecommerce System
+                    </h1>
+                    <h2 class="intro-subtitle">
+                        Created an end to end rental system that allows for checkout
+                        via PayPal.
+                    </h2>
+                    <br>
+                    <img src="images/fabflix_banner2.png" class="img-fluid" alt="Responsive image">
+                    <br>
+                    <br>
+                    <h3>Project Overview</h3>
+                    <p> In this project I built an end to end movie rental system called FabFlix that allows customers
+                        to view movies, place them in a shopping cart, and checkout via PayPal.
+                        The design consists of a React frontend and multiple Java RESTful microservices that access a
+                        MySql database through an API gateway.</p>
+
+                    <h3>Microservices</h3>
+                    <ul>
+                        <li>
+                            <p>API Gateway: Security and Load Balancing</p>
+                        </li>
+                        <li>
+                            <p>Identity Management (IDM): User authentication and access control </p>
+                        </li>
+                        <li>
+                            <p>Movies Service: Searching/Browsing</p>
+                        </li>
+                        <li>
+                            <p>Billing Service: Purchasing, recording transactions, user personal information
+                            </p>
+                        </li>
+                        <li>
+                            <p>Payment Service: Credit card processing</p>
+                        </li>
+                    </ul>
+                    <br>
+                    <h3>Live Transaction Demo</h3>
+                    <br>
+                    <iframe width="1090" height="619" src="https://www.youtube.com/embed/g31hsMVQ-18"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
