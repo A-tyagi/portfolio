@@ -120,6 +120,10 @@ ul {
   line-height: 1.8;
 }
 
+#sleeptracker{
+  font-size: 18px;
+}
+
 #endpage {
   margin-bottom: 100px;
 }
