@@ -2,23 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="author" content="Arjun Tyagi">
     <meta name="description" content="A portfolio website created by Arjun Tyagi">
     <title>Portfolio | Arjun Tyagi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,100&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT1HQT38MC"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-YT1HQT38MC');
@@ -26,134 +30,145 @@
 </head>
 
 <body>
-    <div class="container-xl">
+<div class="container-xl">
 
-        <!-- Nav Bar -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
-            <header>
-                <a class="navbar-brand" href="index.html#top"><img src="images/portfolio_icon.svg" width="50"
-                        height="50" class="d-inline-block align-center" alt="portfolio logo" loading="lazy" />
-                    Arjun Tyagi</a>
+    <!-- Nav Bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <header>
+            <a class="navbar-brand" href="index.html#top"><img src="images/portfolio_icon.svg" width="50"
+                                                               height="50" class="d-inline-block align-center"
+                                                               alt="portfolio logo" loading="lazy"/>
+                Arjun Tyagi</a>
 
-            </header>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        </header>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link"
-                            href="https://a-tyagi.github.io/portfolio/index.html#about#top">About Me </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link"
-                            href="https://a-tyagi.github.io/portfolio/index.html#projects-title1">Coding Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link"
-                            href="https://a-tyagi.github.io/portfolio/index.html#projects-title2">UX Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link"
-                            href="https://a-tyagi.github.io/portfolio/index.html#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <section id="about">
-            <div class="container-xl">
-                <div class="row pt-5">
-                    <div class="col">
-                        <h1 id="about-title" class="title pt-3">
-                            Web Crawler & Search Engine
-                        </h1>
-                        <h2 class="intro-subtitle">
-                            Creating a Search Engine from the Ground Up, <a
-                                href="https://github.com/A-tyagi/spacetime-crawler4py">(Source Code)</a>
-                        </h2>
-                        <br>
-                        <img src="images/search_banner.png" class="img-fluid" alt="Responsive image">
-                        <br>
-                        <br>
-                        <p>This is a two part project that involved implemting the core functionalities of a web crawler
-                            and creating a search engine from the ground up that is capable of handling thousands of
-                            documents and Web pages.</p>
-                        <br>
-                        <h3 id="web-crawler">Web Crawler</h3>
-                        <p>This project began by using the empty shell of a spacetime web crawler and implementing the
-                            core scraping and multithreading functionalities. The scraper function receives a URL and
-                            corresponding Web response that is parsed so that information and any additional links
-                            leading to other pages can be extract from the page. By seeding the crawler with any new
-                            links found, we are able to scrape, store and explore the web in a simultaneous process. For
-                            the purposes of this project the crawler was limited to 5 domains within the UCI domain and
-                            found 10167 unique pages. My implementation of the crawler also made sure to:</p>
-                        <ul>
-                            <li>Abide by the 500ms politeness delay for each site</li>
-                            <li>Detect and avoid infinite traps</li>
-                            <li>Avoid similar pages with no additional information</li>
-                            <li>Avoid large files and dead URLs</li>
-                        </ul>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#about#top">About Me </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title2">UX Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title1">Dev Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scroll-link"
+                       href="https://a-tyagi.github.io/portfolio/index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container-xl">
+            <div class="row pt-5">
+                <div class="col">
+                    <h1 id="about-title" class="title pt-3">
+                        Web Crawler & Search Engine
+                    </h1>
+                    <h2 class="intro-subtitle">
+                        Creating a Search Engine from the Ground Up, <a
+                            href="https://github.com/A-tyagi/spacetime-crawler4py">(Source Code)</a>
+                    </h2>
+                    <br>
+                    <img src="images/search_banner.png" class="img-fluid" alt="Responsive image">
+                    <br>
+                    <br>
+                    <p>This is a two part project that involved implemting the core functionalities of a web crawler
+                        and creating a search engine from the ground up that is capable of handling thousands of
+                        documents and Web pages.</p>
+                    <br>
+                    <h3 id="web-crawler">Web Crawler</h3>
+                    <p>This project began by using the empty shell of a spacetime web crawler and implementing the
+                        core scraping and multithreading functionalities. The scraper function receives a URL and
+                        corresponding Web response that is parsed so that information and any additional links
+                        leading to other pages can be extract from the page. By seeding the crawler with any new
+                        links found, we are able to scrape, store and explore the web in a simultaneous process. For
+                        the purposes of this project the crawler was limited to 5 domains within the UCI domain and
+                        found 10167 unique pages. My implementation of the crawler also made sure to:</p>
+                    <ul>
+                        <li>Abide by the 500ms politeness delay for each site</li>
+                        <li>Detect and avoid infinite traps</li>
+                        <li>Avoid similar pages with no additional information</li>
+                        <li>Avoid large files and dead URLs</li>
+                    </ul>
 
-                        <p>Implementing the crawler helped me learn how to gather and store relevant data from the web
-                            so that it can be easily indexed and searched through in the next part of this project. For
-                            the purposes of the crawler, data was simply saved in a json file in the format shown below.
-                        </p>
-                        <script src="https://gist.github.com/A-tyagi/a7496423104ac5625424e166a4fc4804.js"></script>
-                        <br>
-                        <h3 id="search-engine">Search Engine</h3>
-                        <p>The Search Engine component of this project uses a smaller subset of a couple thousand pages
-                            for the corpus as compared to the total 10167 unique pages that were previously crawled. The
-                            Search Engine contains two components: an indexer and the search engine itself. The
-                            indexer’s job is to extract the relevant information from each page and to create an
-                            inverted index for the corpus so that results can be easily searched for and presented to
-                            the user. My indexer uses a sqlite3 database to index all the pages. The smaller corpus size
-                            and database index allow my query time to be fast (sub 100 ms for queries with less than 10
-                            tokens).</p>
+                    <p>Implementing the crawler helped me learn how to gather and store relevant data from the web
+                        so that it can be easily indexed and searched through in the next part of this project. For
+                        the purposes of the crawler, data was simply saved in a json file in the format shown below.
+                    </p>
+                    <script src="https://gist.github.com/A-tyagi/a7496423104ac5625424e166a4fc4804.js"></script>
+                    <br>
+                    <h3 id="search-engine">Search Engine</h3>
+                    <p>The Search Engine component of this project uses a smaller subset of a couple thousand pages
+                        for the corpus as compared to the total 10167 unique pages that were previously crawled. The
+                        Search Engine contains two components: an indexer and the search engine itself. The
+                        indexer’s job is to extract the relevant information from each page and to create an
+                        inverted index for the corpus so that results can be easily searched for and presented to
+                        the user. My indexer uses a sqlite3 database to index all the pages. The smaller corpus size
+                        and database index allow my query time to be fast (sub 100 ms for queries with less than 10
+                        tokens).</p>
 
-                        <p>Below you can see how the indexer tokenizes each page using <a
-                                href="https://www.nltk.org/">NLTK</a> and <a
-                                href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup4</a>
-                            libraries. Alphanumeric sequences are also checked for meaningless stop words and extra
-                            weight is given to important words in bold or headings. Porter stemming is used to shorten
-                            words to their root/base as a means for better textual matching.</p>
-                        <script src="https://gist.github.com/A-tyagi/baed7d7e4a6e65c2d5408cf9e66d68df.js"></script>
-                        <br>
-                        <p>In order to improve the ranking performance and search quality of the search engine I
-                            incorporated the following features:</p>
-                        <ul>
-                            <li>Exact Phrase Matching: I am saving positional data within our index with word positions
-                                and use that information for exact phrase matching.</li>
-                            <li>Important words: I am saving tokens that occur as titles, heading, underlined,
-                                strong/bold, in a separate index and use that information for ranking the results.</li>
-                            <li>Cosine Similarity: Implemented cosine similarity (no library), to rank search results.
-                            </li>
-                            <li>Ranked Retrieval: We are using a stacked form of ranked retrieval where multiple types
-                                of queries are performed in the following order until the target number of results are
-                                found:
-                                <ul>
-                                    <li>Exact phrase match using positional data</li>
-                                    <li>Important words using markup data</li>
-                                    <li>Matches using ‘AND’ boolean queries</li>
-                                    <li>Matches using ‘OR’ boolean queries</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <br>
-                        <h3 id="web-server--front-end-demo">Web Server &amp; Front End Demo</h3>
-                        <p>In order to provide the search engine with a user interface, a Flask based web server is used
-                            to serve the front end searching functionality. When the user clicks search, a REST call is
-                            triggered to the running web server which then allows the response to be displayed on
-                            screen. Watch a demo of the search engine running below.</p>
+                    <p>Below you can see how the indexer tokenizes each page using <a
+                            href="https://www.nltk.org/">NLTK</a> and <a
+                            href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup4</a>
+                        libraries. Alphanumeric sequences are also checked for meaningless stop words and extra
+                        weight is given to important words in bold or headings. Porter stemming is used to shorten
+                        words to their root/base as a means for better textual matching.</p>
+                    <script src="https://gist.github.com/A-tyagi/baed7d7e4a6e65c2d5408cf9e66d68df.js"></script>
+                    <br>
+                    <p>In order to improve the ranking performance and search quality of the search engine I
+                        incorporated the following features:</p>
+                    <ul>
+                        <li>Exact Phrase Matching: I am saving positional data within our index with word positions
+                            and use that information for exact phrase matching.
+                        </li>
+                        <li>Important words: I am saving tokens that occur as titles, heading, underlined,
+                            strong/bold, in a separate index and use that information for ranking the results.
+                        </li>
+                        <li>Cosine Similarity: Implemented cosine similarity (no library), to rank search results.
+                        </li>
+                        <li>Ranked Retrieval: We are using a stacked form of ranked retrieval where multiple types
+                            of queries are performed in the following order until the target number of results are
+                            found:
+                            <ul>
+                                <li>Exact phrase match using positional data</li>
+                                <li>Important words using markup data</li>
+                                <li>Matches using ‘AND’ boolean queries</li>
+                                <li>Matches using ‘OR’ boolean queries</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br>
+                    <h3 id="web-server--front-end-demo">Web Server &amp; Front End Demo</h3>
+                    <p>In order to provide the search engine with a user interface, a Flask based web server is used
+                        to serve the front end searching functionality. When the user clicks search, a REST call is
+                        triggered to the running web server which then allows the response to be displayed on
+                        screen. Watch a demo of the search engine running below.</p>
 
-                        <iframe src="https://player.vimeo.com/video/474312473" width="1000" height="568" id="endpage"
+                    <iframe src="https://player.vimeo.com/video/474312473" width="1000" height="568" id="endpage"
                             frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                    </div>
-
                 </div>
-            </div>
-        </section>
 
+            </div>
+        </div>
+    </section>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 
 </html>

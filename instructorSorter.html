@@ -18,7 +18,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YT1HQT38MC"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-YT1HQT38MC');
@@ -49,11 +53,11 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scroll-link"
-                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title1">Coding Projects</a>
+                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title2">UX Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scroll-link"
-                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title2">UX Work</a>
+                       href="https://a-tyagi.github.io/portfolio/index.html#projects-title1">Dev Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link scroll-link"
@@ -67,35 +71,57 @@
             <div class="row pt-5">
                 <div class="col">
                     <h1 id="about-title" class="title pt-3">
-                        Instructor Assignment Sorter
+                        Instructor Assignment & Management System
                     </h1>
                     <h2 class="intro-subtitle">
-                        An instructor management system created for our client Dreams For Schools.
+                        Designed & developed an instructor management tool for client Dreams For Schools.
                     </h2>
+                    <br>
+
                     <img src="images/dnd_demo.gif" class="img-fluid" alt="Responsive image">
                     <!--                        <iframe src="https://player.vimeo.com/video/568284495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1050" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="IAS_Demo"></iframe>-->
                     <br>
                     <br>
+                    <br>
                     <h3>Client & Project Overview</h3>
                     <p>Dreams for Schools is a non-profit organization that oversees programs and initiatives
-                        that contribute to educating youth about STEM. As the organization works to scale up their
-                        operations, the work-hours needed and complexity to assign each instructor to the appropriate
-                        program based on their preferences and location has also increased. The Instructor Assignment
-                        Sorter
-                        aims to assist program directors in managing and assigning their instructors to schools across
-                        California.
-                        The goal was to reduce the number of hours needed for instructor assignments so that Dreams For
-                        Schools could
-                        refocus efforts elsewhere.
+                        that contribute to educating youth about STEM.
+                        As the organization scaled up its operations, there was a significant increase in the workload
+                        required for manually assigning instructors to programs.
+                        Our goal was to design and develop an app that allows DFS to easily manage their
+                        instructors/programs and create automatic assignments based preference, location, and
+                        availability.
                     </p>
+                    <p> During the design process, I worked closely with stakeholders to conduct product
+                        definition/research, develop wireframes to high-fidelity designs, and validate the final product
+                        with user testing. During the second quarter, I focused on implementing the front and back-end
+                        systems for the application.</p>
+                    <br>
                     <h3>Feature Set</h3>
                     <ul>
                         <li>Ability to import instructor data through bulk CSV upload</li>
-                        <li>Crud for managing instructors, schools, programs and classes</li>
-                        <li>Drag and drop for manually assigning instructors to classes</li>
+                        <li>Ability to add/edit instructors, schools, programs and classes</li>
+                        <li>Intuitive drag and drop assignment for adding instructors to classes</li>
                         <li>Auto-assign functionality to assign instructors based on optimal distance and preference
                         </li>
                     </ul>
+                    <br>
+                    <h3>Design Process & Case Study </h3>
+                    <br>
+                    <div id="sleeptracker">
+                        <iframe src="IAS_CaseStudy.pdf" width="100%" height="1000px">
+                        </iframe>
+                    </div>
+                    <br>
+                    <br>
+                    <h3>Live Demo</h3>
+                    <br>
+                    <iframe src="https://player.vimeo.com/video/568284495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            width="1050" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                            allowfullscreen title="IAS_Demo"></iframe>
+                    <br>
+                    <br>
+                    <br>
                     <h3>Tech Stack</h3>
                     <ul>
                         <li>React for our front end since it allows for easy modularity
@@ -122,33 +148,25 @@
                     </div>
                     <br>
                     <br>
-                    <h3>Live Demo</h3>
-                    <br>
-                    <iframe src="https://player.vimeo.com/video/568284495?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                            width="1050" height="600" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-                            allowfullscreen title="IAS_Demo"></iframe>
-                    <br>
-                    <br>
-                    <br>
                     <h3>Database Architecture</h3>
                     <div class="text-center">
                         <img src="images/IAS_db.png" width="800" class="img-fluid" alt="Responsive image">
                     </div>
                     <br>
                     <br>
-<!--                    <h3>Use Case Diagrams</h3>-->
-<!--                    <div class="text-center">-->
-<!--                        <img src="images/IAS_usecase.png" width="800" class="img-fluid" alt="Responsive image">-->
-<!--                    </div>-->
-<!--                    <br>-->
-<!--                    <br>-->
+                    <!--                    <h3>Use Case Diagrams</h3>-->
+                    <!--                    <div class="text-center">-->
+                    <!--                        <img src="images/IAS_usecase.png" width="800" class="img-fluid" alt="Responsive image">-->
+                    <!--                    </div>-->
+                    <!--                    <br>-->
+                    <!--                    <br>-->
                     <img src="images/SortingLogic.png" width="1080" class="img-fluid" alt="Responsive image">
                     <br>
                     <br>
-                    <h3>Algorithm Pseudo Code</h3>
-                    <script src="https://gist.github.com/A-tyagi/63263989296c55c43cb5b995a7748f6b.js"></script>
-                    <br>
-                    <br>
+                    <!--                    <h3>Algorithm Pseudo Code</h3>-->
+                    <!--                    <script src="https://gist.github.com/A-tyagi/63263989296c55c43cb5b995a7748f6b.js"></script>-->
+                    <!--                    <br>-->
+                    <!--                    <br>-->
                     <img src="images/IAS_lofi.png" class="img-fluid" alt="Responsive image"
                          id="endpage">
                     <img src="images/IAS_hifi.png" class="img-fluid" alt="Responsive image"
@@ -158,7 +176,15 @@
             </div>
         </div>
     </section>
-
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 
 </html>
